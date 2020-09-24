@@ -12,4 +12,14 @@
   border-top-color: yellowgreen;
   border-bottom-color: yellowgreen;
   border-radius: 50%;
+  animation: turn 2s ease-in-out infinite;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
